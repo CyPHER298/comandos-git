@@ -1,0 +1,11 @@
+github.com/etechas/2021-etim-pw3/blob/main/009-metodos-consulto-spring-data.md
+
+
+findByEmail
+
+find: determina qual entidade deve ser retornada. Também pode ser read, query e get. Se fosse count retornaria o numero de entidades
+
+By: indica ao analisador o início dos critérios reais
+
+Email: diz ao Spring Data que há uma propriedade chama email na entidade (Aluno) que será usada como critério de pesquisa. Em outras palavras, haverá uma cláusula where nessa propriedade
+
